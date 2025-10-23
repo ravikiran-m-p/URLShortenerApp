@@ -14,14 +14,18 @@ public class URLShortenerGUI
 }
 
 
-private String generateShortCode() {
+private String generateShortCode()
+{
     StringBuilder sb = new StringBuilder();
     for (int i = 0; i < CODE_LENGTH; i++)
         sb.append(CHAR_POOL.charAt(random.nextInt(CHAR_POOL.length())));
         return sb.toString();
     }
 
-public URLShortenerGUI() {
+public URLShortenerGUI()
+{
         JFrame frame = new JFrame("URL Shortener");
         frame.setSize(500, 200);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+        
