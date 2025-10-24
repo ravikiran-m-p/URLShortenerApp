@@ -33,20 +33,32 @@ public URLShortenerGUI()
     JLabel resultLabel = new JLabel("");
 
     shortenBtn.addActionListener(e -> {
-    String longURL = urlField.getText();
-    if (longURL.isEmpty())
-    {
-        resultLabel.setText("Please enter a URL.");
-        return;
-    }
-    String shortCode;
-      do
-      {
-        shortCode = generateShortCode();
-      }while (shortToUrl.containsKey(shortCode));
-    shortToUrl.put(shortCode, longURL);
-    resultLabel.setText("<html>Short URL: <a href='#'>" + shortCode + "</a></html>");
-    resultLabel.setCursor(new Cursor(Cursor.HAND_CURSOR));
-    resultLabel.addMouseListener(new MouseAdapter() {
+        String longURL = urlField.getText();
+        if (longURL.isEmpty())
+        {
+            resultLabel.setText("Please enter a URL.");
+            return;
+        }
+        String shortCode;
+          do
+          {
+            shortCode = generateShortCode();
+          }while (shortToUrl.containsKey(shortCode));
+        shortToUrl.put(shortCode, longURL);
+        resultLabel.setText("<html>Short URL: <a href='#'>" + shortCode + "</a></html>");
+        resultLabel.setCursor(new Cursor(Cursor.HAND_CURSOR));
+        resultLabel.addMouseListener(new MouseAdapter() {
+            public void mouseClicked(MouseEvent me) {
+              try
+              {
+                Desktop.getDesktop().browse(new URI(longURL));
+              }
+              catch (Exception ex)
+                {
+                  ex.printStackTrace();
+                }
+            }
+        });
+ });
 
         
