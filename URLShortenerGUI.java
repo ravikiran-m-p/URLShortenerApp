@@ -39,6 +39,12 @@ public URLShortenerGUI()
         resultLabel.setText("Please enter a URL.");
         return;
     }
-    
+    String shortCode;
+      do
+      {
+        shortCode = generateShortCode();
+      }while (shortToUrl.containsKey(shortCode));
+    shortToUrl.put(shortCode, longURL);
+    resultLabel.setText("<html>Short URL: <a href='#'>" + shortCode + "</a></html>");
 
         
