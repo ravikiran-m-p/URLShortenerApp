@@ -46,5 +46,7 @@ public URLShortenerGUI()
       }while (shortToUrl.containsKey(shortCode));
     shortToUrl.put(shortCode, longURL);
     resultLabel.setText("<html>Short URL: <a href='#'>" + shortCode + "</a></html>");
+    resultLabel.setCursor(new Cursor(Cursor.HAND_CURSOR));
+    resultLabel.addMouseListener(new MouseAdapter() {
 
         
