@@ -61,4 +61,14 @@ public URLShortenerGUI()
         });
  });
 
+        JPanel panel = new JPanel();
+        panel.add(urlField);
+        panel.add(shortenBtn);
+        panel.add(resultLabel);
+        frame.add(panel);
+        frame.setVisible(true);
+    }
+
+
+
         
