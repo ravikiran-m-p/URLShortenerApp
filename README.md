@@ -24,3 +24,11 @@ Clone the Repository :     git clone https://github.com/ravikiran-m-p/URLShorten
 Compile the Java files:  javac URLShortenerGUI.java
 
 Run the application:  java URLShortenerGUI
+
+Usage
+
+    - Launch the application.
+    - Enter a long URL in the text field.
+    - Click the "Shorten" button.
+    - The application generates a short code displayed as a clickable link.
+    - Click the short code to open the original URL in your default browser.
