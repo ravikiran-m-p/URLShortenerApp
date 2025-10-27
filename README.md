@@ -13,3 +13,14 @@
 - Displays the short code in a clickable label.  
 - Opens the original URL in the default browser when clicked.  
 - Lightweight and easy-to-use.  
+
+
+## Installation
+
+Clone the Repository :     git clone https://github.com/ravikiran-m-p/URLShortenerApp.git
+
+## Navigate to the project folder:  cd URLShortenerGUI
+
+Compile the Java files:  javac URLShortenerGUI.java
+
+Run the application:  java URLShortenerGUI
