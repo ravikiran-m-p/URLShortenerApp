@@ -33,7 +33,7 @@ Usage
     - The application generates a short code displayed as a clickable link.
     - Click the short code to open the original URL in your default browser.
 
-    - How It Works
+How It Works
     - Maintains a map of short codes to original URLs.
     - Generates a 6-character random code for each URL.
     - Checks for duplicates before saving the short code.
