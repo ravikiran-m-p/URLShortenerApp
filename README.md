@@ -38,3 +38,9 @@ Usage
     - Generates a 6-character random code for each URL.
     - Checks for duplicates before saving the short code.
     - Uses Desktop.getDesktop().browse() to open URLs on click.
+
+- Technologies Used
+
+    - Java SE
+    - Java Swing for GUI
+    - Java AWT for event handling and opening browser
