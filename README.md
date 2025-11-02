@@ -17,7 +17,10 @@
 
 ## Installation
 
-Clone the Repository :     git clone https://github.com/ravikiran-m-p/URLShortenerApp.git
+Clone the Repository :
+```bash
+git clone https://github.com/ravikiran-m-p/URLShortenerApp.git
+```
 
 ## Navigate to the project folder:  cd URLShortenerGUI
 
