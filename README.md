@@ -20,7 +20,7 @@ Clone the Repository :
 git clone https://github.com/ravikiran-m-p/URLShortenerApp.git
 ```
 
-- ## Navigate to the project folder:  cd URLShortenerGUI
+- Navigate to the project folder:  cd URLShortenerGUI
 
 - Compile the Java files:  javac URLShortenerGUI.java
 
