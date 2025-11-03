@@ -20,11 +20,11 @@ Clone the Repository :
 git clone https://github.com/ravikiran-m-p/URLShortenerApp.git
 ```
 
-- Navigate to the project folder:  cd URLShortenerGUI
+- Navigate to the project folder:  ``` cd URLShortenerGUI ```
 
-- Compile the Java files:  javac URLShortenerGUI.java
+- Compile the Java files: ``` javac URLShortenerGUI.java ```
 
-- Run the application:  java URLShortenerGUI
+- Run the application: ``` java URLShortenerGUI ```
 
 ## Usage
 
