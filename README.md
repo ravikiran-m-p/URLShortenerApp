@@ -45,6 +45,8 @@ git clone https://github.com/ravikiran-m-p/URLShortenerApp.git
 - Checks for duplicates before saving the short code.
 - Uses Desktop.getDesktop().browse() to open URLs on click.
 
+---
+
 ## Technologies Used
 
 - Java SE
