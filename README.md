@@ -12,6 +12,7 @@
 - Opens the original URL in the default browser when clicked.  
 - Lightweight and easy-to-use.  
 
+---
 
 ## Installation
 
@@ -26,6 +27,8 @@ git clone https://github.com/ravikiran-m-p/URLShortenerApp.git
 
 - Run the application: ``` java URLShortenerGUI ```
 
+---
+
 ## Usage
 
 - Launch the application.
@@ -33,6 +36,8 @@ git clone https://github.com/ravikiran-m-p/URLShortenerApp.git
 - Click the "Shorten" button.
 - The application generates a short code displayed as a clickable link.
 - Click the short code to open the original URL in your default browser.
+
+---
 
 ## How It Works
 - Maintains a map of short codes to original URLs.
