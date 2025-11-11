@@ -2,7 +2,6 @@
 
 **URL Shortener GUI** is a simple desktop application built in Java using **Swing**, which allows users to shorten long URLs and generate clickable short codes. The application stores the mapping locally and provides a quick way to manage and access URLs.
 
-
 ---
 
 ## Features
@@ -46,7 +45,6 @@ git clone https://github.com/ravikiran-m-p/URLShortenerApp.git
 - Uses Desktop.getDesktop().browse() to open URLs on click.
 
 ---
-
 
 ## Technologies Used
 
