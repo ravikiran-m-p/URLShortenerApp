@@ -8,7 +8,7 @@ public class URLShortenerGUI
 {
     private Map<String, String> shortToUrl = new HashMap<>();
     private static final String CHAR_POOL = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
-    private static final int CODE_LENGTH = 6; // length ur wish u can keep how much u want but as small as possiable
+    private static final int CODE_LENGTH = 6;
     private Random random = new Random();
     
 }
