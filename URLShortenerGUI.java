@@ -48,17 +48,18 @@ public URLShortenerGUI()
         resultLabel.setText("<html>Short URL: <a href='#'>" + shortCode + "</a></html>");
         resultLabel.setCursor(new Cursor(Cursor.HAND_CURSOR));
         resultLabel.addMouseListener(new MouseAdapter() {
-            public void mouseClicked(MouseEvent me) {
-              try
+        public void mouseClicked(MouseEvent me)
+        {
+            try
               {
                 Desktop.getDesktop().browse(new URI(longURL));
               }
-              catch (Exception ex)
-                {
+            catch (Exception ex)
+            {
                   ex.printStackTrace();
-                }
             }
-        });
+        }
+    });
  });
 
         JPanel panel = new JPanel();
